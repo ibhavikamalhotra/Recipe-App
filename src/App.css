@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 40%;
+  border: none;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.search-button {
+  background: #261d3d;
+  border: none;
+  padding: 18px 50px;
+  font-size: 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.heading{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+.footer{
+  font-size: 23px;
+  text-align: center;
+  color: white;
+}
