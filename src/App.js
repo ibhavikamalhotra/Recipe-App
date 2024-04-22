@@ -54,7 +54,7 @@ const App = () => {
             ingredients={recipe.recipe.ingredients} />
           )) }
        </div>
-       <p className="footer">Created By Bhavika Malhotra</p>
+       
 </div>
 
   );
